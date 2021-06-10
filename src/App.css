@@ -1,0 +1,50 @@
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(44, 93%, 48%);
+}
+
+.pokeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.poke-box{
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    background-color: hsl(213, 69%, 40%);
+    color: white;
+    margin: 40px;
+    height: 25px;
+    width: 140px;
+}
+
+button:disabled{
+    background-color: red;
+}
+
+.pokemonContainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    border:1px solid black;
+    box-shadow: 2px 2px  ;
+
+}
